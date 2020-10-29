@@ -1,7 +1,7 @@
 
-    d3.select("#A")
+    d3.select("#luke")
 .on("click", function()
 {
      d3.select("#answer")   
-        .text("WRONG!!");
+        .text("CORRECT!!");
     })
